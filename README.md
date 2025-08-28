@@ -55,7 +55,7 @@ Correct! Points earned: +10
 ### Sample Teacher Report Output (TO BE IMPROVED)
 
 **Example: Indivdual Student Report**
-Student: Alex Rivera
+Student: Mateo Aquino
 ----------------------------------
 Topic Mastery:
 Variables: 85%  (Improved from 65% last month)
