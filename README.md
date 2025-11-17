@@ -54,8 +54,16 @@ The objectives of HazardReady are to:
 3. **Checklist Generation**: Recommended items, safety preparations, and family communication plan.  
 4. **Go-Bag Health Assessment**: Compare user inputs against an ideal go-bag checklist.  
 5. **Outputs**: Display risk score, customized checklist, go-bag readiness, and family plan.
-
 *A flowchart and pseudocode will be included in the project documentation.*
+
+---
+
+## Website Screenshot
+
+Here’s a screenshot of the HazardReady interactive website:
+
+![HazardReady Website](<img width="941" height="500" alt="Screenshot 2025-11-17 224603" src="https://github.com/user-attachments/assets/4fff736f-edb1-4677-bad4-b97077a6e53b" />
+)
 
 
 ---
