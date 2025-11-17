@@ -1,95 +1,40 @@
-# CodeQuest — Interactive Coding Skill Trainer
+# HazardReady: Personalized Disaster Risk & Preparedness Planner
 
-## Overview
-CodeQuest is a lightweight, console-based learning tool designed to help beginner programmers master key concepts like variables, conditionals, loops, and functions.  
-It provides adaptive exercises, spaced review for retention, and detailed teacher reports that highlight where students excel and where they struggle.
+## Project Overview
+HazardReady is a simple, user-friendly tool designed to help families **prepare for natural hazards** such as typhoons, floods, and earthquakes. The project generates a **personalized emergency plan** based on the user’s home structure, location, family members, pets, and other relevant factors. The goal is to provide **practical, actionable guidance** that is easy to follow, even for students and families with no technical background.
 
-## Features
-- Interactive lessons for four core topics:
-  - Variables
-  - Conditionals
-  - Loops
-  - Functions
-- Adaptive difficulty that adjusts based on student performance.
-- Spaced repetition to reinforce past topics.
-- Teacher reports that:
-  - Summarize each student’s mastery per topic.
-  - Identify class-wide weak areas.
-  - Track improvement trends over time.
-- Local CSV data storage for progress tracking.
+---
 
-## How to Run
-**Requirements:**
-- Python 3.x installed
-- A terminal or console to run the program
+## Problem Statement
+Most disaster preparedness guides are **too generic**, making it difficult for families to adapt advice to their specific situations. This often leads to underprepared households during real emergencies. HazardReady addresses this by **customizing checklists and plans** according to each user’s unique circumstances.
 
-**Steps:**
-1. Download or clone the repository.
-2. Open a terminal in the project folder.
-3. Run the command:
-   ```bash
-   python codequest.py
+---
 
-## Sample Interatcion
-Welcome to CodeQuest!
-Select your profile or create a new one:
-> Create new profile
-Enter your name: Alex
+## Project Objectives
+- Generate a **personalized emergency checklist** based on user inputs.  
+- Calculate a **risk score** for hazards (low, moderate, high).  
+- Provide a **family communication plan** and suggested evacuation strategies.  
+- Assess the **readiness of the family’s go-bag**.  
+- Offer **simple recommendations** to improve safety at home.
 
-Choose a topic:
-1. Variables
-2. Loops
-> 1
+---
 
-Lesson: Variables store values for later use.
-Example: x = 5
+## Planned Features
+- Personalized emergency checklist  
+- Risk scoring system (low / moderate / high)  
+- Family communication plan generator  
+- Go-bag health rating  
+- Safety recommendations tailored to user inputs
 
-Question: What will this code print?
-x = 3
-y = x + 2
-print(y)
+---
 
-Your answer: 5
-Correct! Points earned: +10
+## Planned Inputs and Outputs
 
-### Sample Teacher Report Output (TO BE IMPROVED)
+### Inputs:
+- Type of house
 
-**Example: Indivdual Student Report**
-Student: Mateo Aquino
-----------------------------------
-Topic Mastery:
-Variables: 85%  (Improved from 65% last month)
-Conditionals: 60%  (Needs review)
-Loops: 78%  (Steady)
-Functions: 55%  (Lowest mastery)
-
-Strength: Variables
-Weakness: Functions
-Recommended Focus: Functions & Conditionals
-Trend: Overall improving (+10% average over last 4 weeks)
-
- **Example: Class Summary Report**
-Class: Section Carnation - CS2
-----------------------------------
-Average Mastery:
-Variables: 80%
-Conditionals: 62%
-Loops: 75%
-Functions: 58%
-
-Weakest Topic (Class-wide): Functions
-Strongest Topic: Variables
-
-Patterns Observed:
-- 70% of students show a drop in Function mastery after Week 3.
-- Students who struggle with Conditionals often struggle with Loops.
-
-Suggested Teacher Action:
-- Conduct review activities for Functions and Conditionals.
-- Pair students strong in Loops with those struggling in related topics.
 
 ### Contributors
-
 - Atup
 - Cuevo
 - Escala
