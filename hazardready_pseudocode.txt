@@ -1,0 +1,34 @@
+START
+Prompt user for:
+    - House type
+    - Location
+    - Number of family members
+    - Pets (yes/no)
+    - Elderly/infants/PWDs (yes/no)
+    - Go-bag items (yes/no)
+
+CALCULATE risk_score
+    IF house_type = "wood" AND location = "flood-prone"
+        risk_score = high
+    ELSE IF house_type = "mixed" AND location = "coastal"
+        risk_score = moderate
+    ELSE
+        risk_score = low
+
+GENERATE checklist
+    Include recommended items based on risk_score and family profile
+
+CALCULATE go_bag_readiness
+    Compare user items to recommended items
+    Display percentage ready
+
+GENERATE family communication plan
+    Include contacts, evacuation strategies, emergency notes
+
+DISPLAY outputs:
+    - Risk Score
+    - Checklist
+    - Go-bag readiness %
+    - Family communication plan
+
+END
